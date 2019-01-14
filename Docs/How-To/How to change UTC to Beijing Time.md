@@ -8,5 +8,5 @@ PROCEDURE BJTime()
 var ems = date(now(), "date", "epochSeconds")  
 ems = ems+28800  
 var bjTime = date(ems, "epochSeconds", "date")  
-var newDate = parseDate(bjTime, "")  
+var newDate = format("{0, date, yyyy-MM-dd HH:mm:ss}", bjTime)  
 return newDate  
