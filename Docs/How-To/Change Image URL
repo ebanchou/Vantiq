@@ -1,0 +1,8 @@
+//Source code
+
+var Icon = client.getWidget("Icon的widget的名字");
+    	if (改变条件) {
+            Icon.url = "图像路径";
+        } else {
+            Icon.url = "图像路径2";
+        }
